@@ -23,7 +23,6 @@
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    
     //通过type来判断用户是不是打开了推送开关
     CGFloat version = [[UIDevice currentDevice].systemVersion floatValue];
     if (version >= 8) {
